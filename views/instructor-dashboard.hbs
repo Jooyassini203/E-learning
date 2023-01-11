@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from eduport.webestica.com/instructor-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Oct 2022 10:16:09 GMT -->
+<head>
+	<title>Eduport - LMS, Education and Course Theme</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Eduport- LMS, Education and Course Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/apexcharts/css/apexcharts.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/choices/css/choices.min.css">
+	<link rel="stylesheet" type="text/css" href="/vendor/aos/aos.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="/css/style.css">
+
+	<style>
+		/* ******************************************************
+	Script Top
+*********************************************************/
+
+.ScriptTop {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    font-size: 0.69em;
+    font-weight: 600;
+    line-height: 2.2;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* To Navigation Style 1*/
+.ScriptTop ul {
+    margin: 24px 0;
+    padding: 0;
+    text-align: left;
+}
+.ScriptTop li{
+	list-style:none;	
+	display:inline-block;
+}
+.ScriptTop li a {
+    background: #6a4aed none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.ScriptTop li a:hover{
+	background:#000;
+	color:#fff;
+}
+	</style>
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+	
+<!-- =======================
+Page Banner START -->
+<section class="pt-0">
+	<!-- Main banner background image -->
+	<div class="container-fluid px-0">
+		<div class="bg-blue h-100px h-md-200px rounded-0" style="background:url(/images/pattern/04.png) no-repeat center center; background-size:cover;">
+		</div>
+	</div>
+	<div class="container mt-n4">
+		<div class="row">
+			<!-- Profile banner START -->
+			<div class="col-12">
+				<div class="card bg-transparent card-body p-0">
+					<div class="row d-flex justify-content-between">
+						<!-- Avatar -->
+						<div class="col-auto mt-4 mt-md-0">
+							<div class="avatar avatar-xxl mt-n3">
+								<img class="avatar-img rounded-circle border border-white border-3 shadow" src="/images/avatar/01.jpg" alt="">
+							</div>
+						</div>
+						<!-- Profile info -->
+						<div class="col d-md-flex justify-content-between align-items-center mt-4">
+							<div>
+								<h1 class="my-1 fs-4">Lori Stevens <i class="bi bi-patch-check-fill text-info small"></i></h1>
+								<ul class="list-inline mb-0">
+									<li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-star text-warning me-2"></i>4.5/5.0</li>
+									<li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-user-graduate text-orange me-2"></i>12k Enrolled Students</li>
+									<li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-book text-purple me-2"></i>25 Courses</li>
+								</ul>
+							</div>
+							<!-- Button -->
+							<div class="d-flex align-items-center mt-2 mt-md-0">
+								 
+									<select class="form-select form-select-sm z-index-9" aria-label=".form-select-sm" id="annee-univ">
+											<option value="">Sort by</option>
+											<option value="2023">2023</option>
+											<option>2022</option>
+											<option>2021</option>
+									</select>
+								 
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Profile banner END -->
+
+				<!-- Advanced filter responsive toggler START -->
+				<!-- Divider -->
+				<hr class="d-xl-none">
+				<div class="col-12 col-xl-3 d-flex justify-content-between align-items-center">
+					<a class="h6 mb-0 fw-bold d-xl-none" href="#">Menu</a>
+					<button class="btn btn-primary d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+						<i class="fas fa-sliders-h"></i>
+					</button>
+				</div>
+				<!-- Advanced filter responsive toggler END -->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Page Banner END -->
+
+<!-- =======================
+Page content START -->
+<section class="pt-0">
+	<div class="container">
+		<div class="row">
+			<!-- Left sidebar START -->
+			<div class="col-xl-3">
+				<!-- Responsive offcanvas body START -->
+				<div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel" >
+					<!-- Offcanvas header -->
+					<div class="offcanvas-header bg-light">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">My profile</h5>
+						<button  type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasSidebar" aria-label="Close"></button>
+					</div>
+					<!-- Offcanvas body -->
+					<div class="offcanvas-body p-3 p-xl-0 stic" >
+						<div class="bg-dark border rounded-3 pb-0 p-3 w-100">
+							<!-- Dashboard menu -->
+							<div class="list-group list-group-dark list-group-borderless" role="tablist" aria-orientation="vertical">
+								<a class="list-group-item nav-link active"href="#v-pills-dashbord" id="v-pills-dashbord-tab" data-bs-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="bi bi-ui-checks-grid fa-fw me-2"></i>Dashboard</a>
+								<a class="list-group-item nav-link" id="v-pills-cours-tab" data-bs-toggle="pill" href="#v-pills-cours" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-basket fa-fw me-2"></i>Mes Cours</a>
+								<a class="list-group-item nav-link" id="v-pills-examen-tab" data-bs-toggle="pill" href="#v-pills-examen" role="tab" aria-controls="v-pills-examen" aria-selected="false"><i class="bi bi-question-diamond fa-fw me-2"></i>Examen</a>
+								<a class="list-group-item nav-link" id="v-pills-student-tab" data-bs-toggle="pill" href="#v-pills-student" role="tab" aria-controls="v-pills-student" aria-selected="false"><i class="bi bi-people fa-fw me-2"></i>Etudiants</a>
+								<a class="list-group-item nav-link" id="v-pills-review-tab" data-bs-toggle="pill" href="#v-pills-review" role="tab" aria-controls="v-pills-review" aria-selected="false"><i class="bi bi-star fa-fw me-2"></i>Reviews</a>
+								<a class="list-group-item nav-link" id="v-pills-meet-tab" data-bs-toggle="pill" href="#v-pills-meet" role="tab" aria-controls="v-pills-meet" aria-selected="false"><i class="bi bi-star fa-fw me-2"></i>Conférence</a>
+								<a class="list-group-item nav-link" id="v-pills-edit-profil-tab" data-bs-toggle="pill" href="#v-pills-edit-profil" role="tab" aria-controls="v-pills-edit-profil" aria-selected="false"><i class="bi bi-pencil-square fa-fw me-2"></i>Edite Profile</a>	
+								<a class="list-group-item text-danger bg-danger-soft-hover" href="sign-in.html"><i class="fas fa-sign-out-alt fa-fw me-2"></i>Sign Out</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Responsive offcanvas body END -->
+			</div>
+			<!-- Left sidebar END -->
+
+			<!-- Main content START -->
+			<div class="col-xl-9">
+
+			<div class="tab-content pt-0" id="v-pills-tabContent">
+				
+				<div class="tab-pane fade show active" id="v-pills-dashbord" role="tabpanel" aria-labelledby="v-pills-dashbord-tab">
+					
+					<!-- Counter boxes START -->
+					<div class="row g-4">
+						<!-- Counter item -->
+						<div class="col-sm-6 col-lg-4">
+							<div class="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-15 rounded-3">
+								<span class="display-6 text-warning mb-0"><i class="fas fa-tv fa-fw"></i></span>
+								<div class="ms-4">
+									<div class="d-flex">
+										<h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-delay="200" id="countCourse">0</h5>
+									</div>
+									<span class="mb-0 h6 fw-light">Total Courses</span>
+								</div>
+							</div>
+						</div>
+						<!-- Counter item -->
+						<div class="col-sm-6 col-lg-4">
+							<div class="d-flex justify-content-center align-items-center p-4 bg-purple bg-opacity-10 rounded-3">
+								<span class="display-6 text-purple mb-0"><i class="fas fa-user-graduate fa-fw"></i></span>
+								<div class="ms-4">
+									<div class="d-flex">
+										<h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="25"	data-purecounter-delay="200">0</h5>
+										<span class="mb-0 h5">K+</span>
+									</div>
+									<span class="mb-0 h6 fw-light">Total Students</span>
+								</div>
+							</div>
+						</div>
+						<!-- Counter item -->
+						<div class="col-sm-6 col-lg-4">
+							<div class="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-10 rounded-3">
+								<span class="display-6 text-info mb-0"><i class="fas fa-gem fa-fw"></i></span>
+								<div class="ms-4">
+									<div class="d-flex">
+										<h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-delay="300">0</h5>
+										<span class="mb-0 h5">K</span>
+									</div>
+									<span class="mb-0 h6 fw-light">Enrolled Students</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Counter boxes END -->
+
+					<!-- Chart START -->
+					<div class="row mt-5">
+						<div class="col-12">
+							<div class="card card-body bg-transparent border p-4 h-100">
+								<div class="row g-4">
+									<!-- Content -->
+									<div class="col-sm-6 col-md-4">
+										<span class="badge text-bg-dark">Current Month</span>
+										<h4 class="text-primary my-2">$35000</h4>
+										<p class="mb-0"><span class="text-success me-1">0.20%<i class="bi bi-arrow-up"></i></span>vs last month</p>
+									</div>
+									<!-- Content -->
+									<div class="col-sm-6 col-md-4">
+										<span class="badge text-bg-dark">Last Month</span>
+										<h4 class="my-2">$28000</h4>
+										<p class="mb-0"><span class="text-danger me-1">0.10%<i class="bi bi-arrow-down"></i></span>Then last month</p>
+									</div>
+								</div>
+
+								<!-- Apex chart -->
+								<div id="ChartPayout"></div>
+
+							</div>
+						</div>
+					</div>
+					<!-- Chart END -->
+
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-cours" role="tabpanel" aria-labelledby="v-pills-cours-tab">
+				
+					<!-- Course List table START -->
+					<div class="row">
+						<div class="col-12">
+							<div class="card border bg-transparent rounded-3">
+								<!-- Card header START -->
+								<div class="card-header bg-transparent border-bottom">
+									<div class="d-sm-flex justify-content-sm-between align-items-center">
+										<h3 class="mb-2 mb-sm-0">Listes Cours</h3>
+										{{!-- <a href="#" class="btn btn-sm btn-primary-soft mb-0">View all</a> --}}
+										<div class="col-md-8">
+											<form class="rounded position-relative">
+												<input class="form-control pe-5 bg-transparent input-group-sm" type="search" placeholder="Search" aria-label="Search" id="search-cours-field">
+												<button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+													<i class="fas fa-search fs-6 "></i>
+												</button>
+											</form>
+									</div>
+									</div>
+								</div>
+								<!-- Card header END -->
+
+								<!-- Card body START -->
+								<div class="card-body">
+									<div class="table-responsive border-0 rounded-3">
+										<!-- Table START -->
+										<table class="table table-dark-gray align-middle p-4 mb-0" id="table_cours">
+											<!-- Table head -->
+											<thead>
+												<tr>
+													<th scope="col" class="border-0 rounded-start">Course Name</th>
+													<th scope="col" class="border-0">Crédit</th>
+													<th scope="col" class="border-0">Heure</th> 
+													<th scope="col" class="border-0">Période</th>
+													<th scope="col" class="border-0 rounded-end">Action</th>
+												</tr>
+											</thead>
+											<!-- Table body START -->
+											<tbody>
+												
+												
+											</tbody>
+											<!-- Table body END -->
+										</table>
+										<!-- Table END -->
+									</div>
+
+									<!-- Pagination -->
+									<div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-3">
+										<!-- Content -->
+										<p class="mb-0 text-center text-sm-start" id="number-rows">Showing 1 to 8 of 20 entries</p>
+										<!-- Pagination -->
+										<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+											<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0" id="nav-pagination">
+												<li class="page-item mb-0"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
+												<li class="page-item mb-0"><a class="page-link" href="#">1</a></li>
+												<li class="page-item mb-0 active"><a class="page-link" href="#">2</a></li>
+												<li class="page-item mb-0"><a class="page-link" href="#">3</a></li>
+												<li class="page-item mb-0"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								<!-- Card body START -->
+							</div>
+						</div>
+					</div>
+					<!-- Course List table END -->
+
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-examen" role="tabpanel" aria-labelledby="v-pills-examen-tab">
+					<!-- Main content START -->
+					{{!-- <div class="col-xl-9"> --}}
+						<!-- Card START -->
+						<div class="card border bg-transparent rounded-3">
+							<!-- Card header START -->
+							<div class="card-header bg-transparent border-bottom px-3">
+								<div class="row g-4 align-items-center">
+									<div class="col-md-2">
+										<img src="/images/courses/4by3/01.jpg" class="rounded-2" alt="Card image">
+									</div>
+									<div class="col-md-10">
+										<!-- Title -->
+										<h3 class="card-title mb-0"><a href="#">The Complete Digital Marketing Course - 12 Courses in 1</a></h3>
+									</div>
+								</div>
+							</div>
+							<!-- Card header END -->
+
+							<!-- Card body START -->
+							<div class="card-body p-4">
+
+								<!-- Accordion START -->
+								<div class="accordion accordion-icon accordion-bg-light" id="accordionExample">
+									<!-- Item -->
+									<div class="accordion-item mb-3">
+										<h6 class="accordion-header" id="headingOne">
+											<button class="accordion-button rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<span class="text-secondary fw-bold me-3">01</span>  
+												<span class="fw-bold">How do you protect your business against cyber-crime?</span> 
+											</button>
+										</h6>
+										<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+											<div class="accordion-body mt-3">
+												<!-- Answer options -->
+												<p class="mb-3"><b class="text-dark">A</b> We have cybersecurity insurance coverage</p>
+												<p class="mb-3"><b class="text-dark">B</b> Our dedicated staff will protect us</p>
+												<p class="mb-3"><b class="text-dark">C</b> We give regular training for best practices</p>
+												<p class="mb-3"><b class="text-dark">D</b> Third-party vendor protection</p>
+
+												<!-- Button -->
+												<a href="#" class="btn btn-sm btn-success-soft mb-0" data-bs-toggle="modal" data-bs-target="#editQuestion">Edit</a>
+												<button class="btn btn-danger-soft btn-sm mb-0">Delete</button>
+											</div>
+										</div>
+									</div>
+
+									<!-- Item -->
+									<div class="accordion-item mb-3">
+										<h6 class="accordion-header" id="headingTwo">
+											<button class="accordion-button rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												<span class="text-secondary fw-bold me-3">02</span>  
+												<span class="fw-bold">What is SEO?</span> 
+											</button>
+										</h6>
+										<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+											<div class="accordion-body mt-3">
+												<!-- Answer options -->
+												<p class="mb-3"><b class="text-dark">A</b> We have cybersecurity insurance coverage</p>
+												<p class="mb-3"><b class="text-dark">B</b> Our dedicated staff will protect us</p>
+												<p class="mb-3"><b class="text-dark">C</b> We give regular training for best practices</p>
+												<p class="mb-3"><b class="text-dark">D</b> Third-party vendor protection</p>
+												
+												<!-- Button -->
+												<a href="#" class="btn btn-sm btn-success-soft mb-0" data-bs-toggle="modal" data-bs-target="#editQuestion">Edit</a>
+												<button class="btn btn-danger-soft btn-sm mb-0">Delete</button>
+											</div>
+										</div>
+									</div>
+
+									<!-- Item -->
+									<div class="accordion-item mb-3">
+										<h6 class="accordion-header" id="headingThree">
+											<button class="accordion-button rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												<span class="text-secondary fw-bold me-3">03</span>  
+												<span class="fw-bold">Who should join this course?</span> 
+											</button>
+										</h6>
+										<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+											<div class="accordion-body mt-3">
+											<!-- Answer options -->
+											<p class="mb-3"><b class="text-dark">A</b> We have cybersecurity insurance coverage</p>
+											<p class="mb-3"><b class="text-dark">B</b> Our dedicated staff will protect us</p>
+											<p class="mb-3"><b class="text-dark">C</b> We give regular training for best practices</p>
+											<p class="mb-3"><b class="text-dark">D</b> Third-party vendor protection</p>
+											
+											<!-- Button -->
+											<a href="#" class="btn btn-sm btn-success-soft mb-0" data-bs-toggle="modal" data-bs-target="#editQuestion">Edit</a>
+											<button class="btn btn-danger-soft btn-sm mb-0">Delete</button>
+											</div>
+										</div>
+									</div>
+
+									<!-- Item -->
+									<div class="accordion-item">
+										<h6 class="accordion-header" id="headingFour">
+											<button class="accordion-button rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+												<span class="text-secondary fw-bold me-3">04</span>  
+												<span class="fw-bold">What are the T&C for this program?</span> 
+											</button>
+										</h6>
+										<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+											<div class="accordion-body mt-3">
+												<!-- Answer options -->
+												<p class="mb-3"><b class="text-dark">A</b> We have cybersecurity insurance coverage</p>
+												<p class="mb-3"><b class="text-dark">B</b> Our dedicated staff will protect us</p>
+												<p class="mb-3"><b class="text-dark">C</b> We give regular training for best practices</p>
+												<p class="mb-3"><b class="text-dark">D</b> Third-party vendor protection</p>
+												
+												<!-- Button -->
+												<a href="#" class="btn btn-sm btn-success-soft mb-0" data-bs-toggle="modal" data-bs-target="#editQuestion">Edit</a>
+												<button class="btn btn-danger-soft btn-sm mb-0">Delete</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Accordion END -->
+								
+							</div>
+							<!-- Card body START -->
+						</div>
+						<!-- Card END -->
+
+						<!-- Student quiz result START -->
+						<div class="card border bg-transparent rounded-3 mt-4">
+							<!-- Card header START -->
+							<div class="card-header bg-transparent border-bottom">
+								<h3 class="mb-0">Student quiz result</h3>
+							</div>
+							<!-- Card header END -->
+
+							<!-- Card body START -->
+							<div class="card-body">
+
+								<!-- Search and select START -->
+								<div class="row g-3 align-items-center justify-content-between mb-4">
+									<!-- Search -->
+									<div class="col-md-8">
+										<form class="rounded position-relative">
+											<input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+											<button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+												<i class="fas fa-search fs-6 "></i>
+											</button>
+										</form>
+									</div>
+
+									<!-- Select option -->
+									<div class="col-md-3">
+										<!-- Short by filter -->
+										<form>
+											<select class="form-select js-choice border-0 z-index-9 bg-transparent" aria-label=".form-select-sm">
+												<option value="">Sort by</option>
+												<option>Free</option>
+												<option>Newest</option>
+												<option>Oldest</option>
+											</select>
+										</form>
+									</div>
+								</div>
+								<!-- Search and select END -->
+
+								<!-- Student list table START -->
+								<div class="table-responsive border-0">
+									<table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+										<!-- Table head -->
+										<thead>
+											<tr>
+												<th scope="col" class="border-0 rounded-start">Student name</th>
+												<th scope="col" class="border-0">Course name</th>
+												<th scope="col" class="border-0">Date</th>
+												<th scope="col" class="border-0">Points</th>
+												<th scope="col" class="border-0 rounded-end">Action</th>
+											</tr>
+										</thead>
+
+										<!-- Table body START -->
+										<tbody>
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/01.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Lori Stevens</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>7/1/2022</td>
+												
+												<!-- Table data -->
+												<td>450/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/03.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Dennis Barrett</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>6/1/2022</td>
+												
+												<!-- Table data -->
+												<td>425/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/04.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Billy Vasquez</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>5/1/2022</td>
+												
+												<!-- Table data -->
+												<td>385/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/09.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Carolyn Ortiz</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>5/1/2022</td>
+												
+												<!-- Table data -->
+												<td>398/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/07.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Larry Lawson</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>4/1/2022</td>
+												
+												<!-- Table data -->
+												<td>428/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+
+											<!-- Table item -->
+											<tr>
+												<!-- Table data -->
+												<td>
+													<div class="d-flex align-items-center">
+														<!-- Image -->
+														<div class="avatar avatar-sm me-2">
+															<img src="/images/avatar/06.jpg" class="rounded" alt="">
+														</div>
+														<div>
+															<!-- Title -->
+															<h6 class="mb-0"><a href="#">Frances Guerrero</a></h6>
+														</div>
+													</div>
+												</td>
+
+												<!-- Table data -->
+												<td>
+													<h6 class="table-responsive-title mt-2 mt-md-0 mb-0"><a href="#">The complete Digital Marketing Courses - 12 Course in 1</a></h6>
+												</td>
+
+												<!-- Table data -->
+												<td>4/1/2022</td>
+												
+												<!-- Table data -->
+												<td>486/500</td>
+
+												<!-- Table data -->
+												<td>
+													<a href="#" class="btn btn-success-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												</td>
+											</tr>
+										</tbody>
+										<!-- Table body END -->
+									</table>
+								</div>
+								<!-- Student list table END -->
+
+								<!-- Pagination START -->
+								<div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-4 mt-sm-3">
+									<!-- Content -->
+									<p class="mb-0 text-center text-sm-start">Showing 1 to 8 of 20 entries</p>
+									<!-- Pagination -->
+									<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+										<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+											<li class="page-item mb-0"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
+											<li class="page-item mb-0"><a class="page-link" href="#">1</a></li>
+											<li class="page-item mb-0 active"><a class="page-link" href="#">2</a></li>
+											<li class="page-item mb-0"><a class="page-link" href="#">3</a></li>
+											<li class="page-item mb-0"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+										</ul>
+									</nav>
+								</div>
+								<!-- Pagination END -->
+							</div>
+							<!-- Card body START -->
+						</div>
+						<!-- Student quiz result END -->
+
+					{{!-- </div> --}}
+					<!-- Main content END -->
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-student" role="tabpanel" aria-labelledby="v-pills-student-tab">
+					<!-- Card START -->
+					<div class="card border bg-transparent rounded-3">
+						<!-- Card header START -->
+						<div class="card-header bg-transparent border-bottom">
+							<h3 class="mb-0">My Students List</h3>
+						</div>
+						<!-- Card header END -->
+
+						<!-- Card body START -->
+						<div class="card-body">
+
+							<!-- Search and select START -->
+							<div class="row g-3 align-items-center justify-content-between mb-4">
+								
+								<div class="col-md-4">
+									<select class="form-select js-choice border-0 z-index-9 bg-transparent" aria-label=".form-select-sm">
+											<option value="">Sort by</option>
+											<option>Free</option>
+											<option>Newest</option>
+											<option>Oldest</option>
+									</select>
+								</div>
+								<!-- Select option -->
+								<div class="col-md-3">
+									<!-- Short by filter -->
+									<form>
+										<select class="form-select js-choice border-0 z-index-9 bg-transparent" aria-label=".form-select-sm">
+											<option value="">Sort by</option>
+											<option>Free</option>
+											<option>Newest</option>
+											<option>Oldest</option>
+										</select>
+									</form>
+								</div>
+								
+								<!-- Search -->
+								<div class="col-md-4"> 
+									<form class="rounded position-relative">
+										<input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+										<button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+											<i class="fas fa-search fs-6 "></i>
+										</button>
+									</form>
+								</div>
+
+
+							</div>
+							<!-- Search and select END -->
+
+							<!-- Student list table START -->
+							<div class="table-responsive border-0">
+								<table class="table table-dark-gray align-middle p-4 mb-0 table-hover">
+									<!-- Table head -->
+									<thead>
+										<tr>
+											<th scope="col" class="border-0 rounded-start">Student name</th>
+											<th scope="col" class="border-0">Progress</th>
+											<th scope="col" class="border-0">Courses</th>
+											<th scope="col" class="border-0">Enrolled date</th>
+											<th scope="col" class="border-0 rounded-end">Action</th>
+										</tr>
+									</thead>
+
+									<!-- Table body START -->
+									<tbody>
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/01.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Lori Stevens</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Mumbai</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">85%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>10</td>
+
+											<!-- Table data -->
+											<td>4/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Block"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/03.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Dennis Barrett</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>New york</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">40%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>12</td>
+
+											<!-- Table data -->
+											<td>9/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Unblock"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/04.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Billy Vasquez</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Paris</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">62%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>08</td>
+
+											<!-- Table data -->
+											<td>10/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Block"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/09.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Carolyn Ortiz</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Delhi</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">60%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>06</td>
+
+											<!-- Table data -->
+											<td>20/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Block"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/07.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Larry Lawson</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>London</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">35%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>04</td>
+
+											<!-- Table data -->
+											<td>12/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Block"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+
+										<!-- Table item -->
+										<tr>
+											<!-- Table data -->
+											<td>
+												<div class="d-flex align-items-center position-relative">
+													<!-- Image -->
+													<div class="avatar avatar-md mb-2 mb-md-0">
+														<img src="/images/avatar/06.jpg" class="avatar-img  rounded-circle" alt="">
+													</div>
+													<div class="mb-0 ms-2">
+														<!-- Title -->
+														<h6 class="mb-0"><a href="#" class="stretched-link">Frances Guerrero</a></h6>
+														<!-- Address -->
+														<span class="text-body small"><i class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Pune</span>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td class="text-center text-sm-start">
+												<div class=" overflow-hidden">
+													<h6 class="mb-0">42%</h6>
+													<div class="progress progress-sm bg-primary bg-opacity-10">
+														<div class="progress-bar bg-primary aos" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 42%" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+														</div>
+													</div>
+												</div>
+											</td>
+
+											<!-- Table data -->
+											<td>14</td>
+
+											<!-- Table data -->
+											<td>8/1/2022</td>
+
+											<!-- Table data -->
+											<td>
+												<a href="#" class="btn btn-success-soft btn-round me-1 mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message"><i class="far fa-envelope"></i></a>
+												<button class="btn btn-danger-soft btn-round mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Block"><i class="fas fa-ban"></i></button>
+											</td>
+										</tr>
+									</tbody>
+									<!-- Table body END -->
+								</table>
+							</div>
+							<!-- Student list table END -->
+
+							<!-- Pagination START -->
+							<div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-4 mt-sm-3">
+								<!-- Content -->
+								<p class="mb-0 text-center text-sm-start">Showing 1 to 8 of 20 entries</p>
+								<!-- Pagination -->
+								<nav class="d-flex justify-content-center mb-0" aria-label="navigation">
+									<ul class="pagination pagination-sm pagination-primary-soft d-inline-block d-md-flex rounded mb-0">
+										<li class="page-item mb-0"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
+										<li class="page-item mb-0"><a class="page-link" href="#">1</a></li>
+										<li class="page-item mb-0 active"><a class="page-link" href="#">2</a></li>
+										<li class="page-item mb-0"><a class="page-link" href="#">3</a></li>
+										<li class="page-item mb-0"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- Pagination END -->
+						</div>
+						<!-- Card body START -->
+					</div>
+					<!-- Card END -->
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-review" role="tabpanel" aria-labelledby="v-pills-review-tab">
+					<!-- Student review START -->
+					<div class="card border bg-transparent rounded-3">
+						<!-- Header START -->
+						<div class="card-header bg-transparent border-bottom">
+							<div class="row justify-content-between align-middle">
+								<!-- Title -->
+								<div class="col-sm-6">
+									<h3 class="card-header-title mb-2 mb-sm-0">Student review</h3>
+								</div>
+								
+								<!-- Short by filter -->
+								<div class="col-sm-4">
+									<form>
+										<select class="form-select js-choice z-index-9 bg-white" aria-label=".form-select-sm">
+											<option value="">Sort by</option>
+											<option>★★★★★ (5/5)</option>
+											<option>★★★★☆ (4/5)</option>
+											<option>★★★☆☆ (3/5)</option>
+											<option>★★☆☆☆ (2/5)</option>
+											<option>★☆☆☆☆ (1/5)</option>
+										</select>
+									</form>
+								</div>
+							</div>
+						</div>
+						<!-- Header END -->
+
+						<!-- Reviews START -->
+						<div class="card-body mt-2 mt-sm-4">
+
+							<!-- Review item START -->
+							<div class="d-sm-flex">
+								<!-- Avatar image -->
+								<img class="avatar avatar-lg rounded-circle float-start me-3" src="/images/avatar/01.jpg" alt="avatar">
+								<div>
+									<div class="mb-3 d-sm-flex justify-content-sm-between align-items-center">
+										<!-- Title -->
+										<div>
+											<h5 class="m-0">Frances Guerrero</h5>
+											<span class="me-3 small">June 11, 2021 at 6:01 am </span>
+										</div>
+										<!-- Review star -->
+										<ul class="list-inline mb-0">
+											<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+											<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+											<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+											<li class="list-inline-item me-0"><i class="fas fa-star text-warning"></i></li>
+											<li class="list-inline-item me-0"><i class="far fa-star text-warning"></i></li>
+										</ul>	
+									</div>
+									<!-- Content -->
+									<h6><span class="text-body fw-light">Review on:</span> How to implement sitemap on sass</h6>
+									<p>Satisfied conveying a dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if. Delivered dejection necessary objection do Mr prevailed. Mr feeling does chiefly cordial in do. </p>
+									<!-- Button -->
+									<div class="text-end">
+										{{!-- <a href="#" class="btn btn-sm btn-primary-soft mb-1 mb-sm-0">Direct message</a>
+										<a class="btn btn-sm btn-light mb-0" data-bs-toggle="collapse" href="#collapseComment" role="button" aria-expanded="false" aria-controls="collapseComment">
+											Reply
+										</a> --}}
+										<!-- collapse textarea -->
+										<div class="collapse show" id="collapseComment">
+											<div class="d-flex mt-3">
+												<textarea class="form-control mb-0" placeholder="Add a comment..." rows="1" spellcheck="false"></textarea>
+												<button class="btn btn-sm btn-primary-soft ms-2 px-4 mb-0 flex-shrink-0"><i class="fas fa-paper-plane fs-5"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Divider -->
+							<hr>
+							<!-- Review item END -->
+
+						</div>
+						<!-- Reviews END -->
+	
+					</div>
+					<!-- Student review END -->
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-edit-profil" role="tabpanel" aria-labelledby="v-pills-edit-profil-tab">
+					<!-- Edit profile START -->
+					<div class="card bg-transparent border rounded-3">
+						<!-- Card header -->
+						<div class="card-header bg-transparent border-bottom">
+							<h3 class="card-header-title mb-0">Edit Profile</h3>
+						</div>
+						<!-- Card body START -->
+						<div class="card-body">
+							<!-- Form -->
+							<form class="row g-4">
+
+								<!-- Profile picture -->
+								<div class="col-12 justify-content-center align-items-center">
+									<label class="form-label">Profile picture</label>
+									<div class="d-flex align-items-center">
+										<label class="position-relative me-4" for="uploadfile-1" title="Replace this pic">
+											<!-- Avatar place holder -->
+											<span class="avatar avatar-xl">
+												<img id="uploadfile-1-preview" class="avatar-img rounded-circle border border-white border-3 shadow" src="/images/avatar/07.jpg" alt="">
+											</span>
+											<!-- Remove btn -->
+											<button type="button" class="uploadremove"><i class="bi bi-x text-white"></i></button>
+										</label>
+										<!-- Upload button -->
+										<label class="btn btn-primary-soft mb-0" for="uploadfile-1">Change</label>
+										<input id="uploadfile-1" class="form-control d-none" type="file">
+									</div>
+								</div>
+
+								<!-- Full name -->
+								<div class="col-12">
+									<label class="form-label">Full name</label>
+									<div class="input-group">
+										<input type="text" class="form-control" value="Lori" placeholder="First name">
+										<input type="text" class="form-control" value="Stevens" placeholder="Last name">
+									</div>
+								</div>
+
+								<!-- Username -->
+								<div class="col-md-6">
+									<label class="form-label">Username</label>
+									<div class="input-group">
+										<span class="input-group-text">Eduport.com</span>
+										<input type="text" class="form-control" value="loristev">
+									</div>
+								</div>
+
+								<!-- Email id -->
+								<div class="col-md-6">
+									<label class="form-label">Email id</label>
+									<input class="form-control" type="email" value="example@gmail.com"  placeholder="Email">
+								</div>
+
+								<!-- Phone number -->
+								<div class="col-md-6">
+									<label class="form-label">Phone number</label>
+									<input type="text" class="form-control" value="1234567890" placeholder="Phone number">
+								</div>
+
+								<!-- Location -->
+								<div class="col-md-6">
+									<label class="form-label">Location</label>
+									<input class="form-control" type="text" value="California">
+								</div>
+								
+								<!-- About me -->
+								<div class="col-12">
+									<label class="form-label">About me</label>
+									<textarea class="form-control" rows="3">I’ve found a way to get paid for my favorite hobby, and do so while following my dream of traveling the world.</textarea>
+									<div class="form-text">Brief description for your profile.</div> 
+								</div>
+
+								<!-- Education -->
+								<div class="col-12">
+									<label class="form-label">Education</label>
+									<input class="form-control mb-2" type="text" value="Bachelor in Computer Graphics">
+									<input class="form-control mb-2" type="text" value="Masters in Computer Graphics">
+									<button class="btn btn-sm btn-light mb-0"><i class="bi bi-plus me-1"></i>Add more</button>
+								</div>
+
+								<!-- Save button -->
+								<div class="d-sm-flex justify-content-end">
+									<button type="button" class="btn btn-primary mb-0">Save changes</button>
+								</div>
+							</form>
+						</div>
+						<!-- Card body END -->
+					</div>
+					<!-- Edit profile END -->
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-meet" role="tabpanel" aria-labelledby="v-pills-meet-tab">
+
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+			<!-- Main content END -->
+		</div><!-- Row END -->
+	</div>
+</section>
+<!-- =======================
+Page content END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- =======================
+Footer START -->
+<footer class="bg-dark p-3">
+	<div class="container">
+		<div class="row align-items-center">
+			<!-- Widget -->
+			<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+				<!-- Logo START -->
+				<a href="index-2.html"> <img class="h-20px" src="/images/logo-light.svg" alt="logo"> </a>
+			</div>
+			
+			<!-- Widget -->
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="text-center text-white">
+					Copyrights ©2021 <a href="#" class="text-reset btn-link">Eduport</a>. All rights reserved.
+				</div>
+			</div>
+			<!-- Widget -->
+			<div class="col-md-4">
+				<!-- Rating -->
+				<ul class="list-inline mb-0 text-center text-md-end">
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-facebook"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-instagram"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-linkedin-in"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+
+<!-- jquery -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+
+<!-- jquery-ui -->
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script src="/vendor/apexcharts/js/apexcharts.min.js"></script>
+
+<!-- Vendors -->
+<script src="/vendor/choices/js/choices.min.js"></script>
+
+<script src="/vendor/aos/aos.js"></script>
+
+<!-- Template Functions -->
+<script type="text/javascript" src="/js/functions.js"></script>
+
+<script type="text/javascript" src="/js/paging.js"></script>
+
+<!--  sript for professor page -->
+<script type="text/javascript" src="/model/professor.js"></script>
+       
+
+</body>
+
+<!-- Mirrored from eduport.webestica.com/instructor-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Oct 2022 10:16:10 GMT -->
+</html>
